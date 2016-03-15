@@ -36,7 +36,7 @@ public class SwayAnimation {
         drawables = ds;
     }
 
-    public static void set(final ViewGroup addedLayout, View touchedView, final Context mContext) {
+    public static void ready(final ViewGroup addedLayout, View touchedView, final Context mContext) {
         touchedView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
