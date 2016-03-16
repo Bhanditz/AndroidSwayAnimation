@@ -43,7 +43,7 @@ SwayAnimation.setDrawables(Arrays.asList(
 SwayAnimation.ready(animatedZone, touchZone, this);
 ```
 
-### if you use ActionBar (but not Toolbor)
+### if you use ActionBar (but not Toolbar)
 
 ```java
 SwayAnimation.withActionBar(true);
