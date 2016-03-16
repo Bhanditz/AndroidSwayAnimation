@@ -47,7 +47,7 @@ SwayAnimation.ready(animatedZone, touchZone, this);
 ### if you use ActionBar (but not Toolbar)
 
 ```java
-SwayAnimation.withActionBar(true);
+SwayAnimation.setWithActionBar(true);
 SwayAnimation.ready(animatedZone, touchZone, this);
 ```
 
