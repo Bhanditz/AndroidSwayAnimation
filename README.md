@@ -1,6 +1,5 @@
 
-
-[![Video](/SwayAnim2.gif)](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
+<img src="/SwayAnim1.gif" width="50%"> <img src="/SwayAnim2.gif" width="50%">
 
 
 ## Download
@@ -14,7 +13,7 @@ dependencies {
 
 ## Usage
 
-```YourActivity.java
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +28,7 @@ dependencies {
 
 ### for custom drawables
 
-```YourActivity.java
+```java
 SwayAnimation.setDrawables(Arrays.asList(
         R.drawable.ic_favorite_pink_300_48dp,
         R.drawable.ic_tag_faces_amber_300_48dp,
@@ -40,7 +39,7 @@ SwayAnimation.ready(animatedZone, touchZone, this);
 
 ### if you use ActionBar
 
-```YourActivity.java
+```java
 SwayAnimation.withActionBar(true);
 SwayAnimation.ready(animatedZone, touchZone, this);
 ```
