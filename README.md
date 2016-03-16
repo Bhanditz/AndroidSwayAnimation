@@ -32,7 +32,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ## Advanced
 
-### for custom drawables
+### customize animated drawables
 
 ```java
 SwayAnimation.setDrawables(Arrays.asList(
