@@ -2,7 +2,7 @@
 
 <img src="/SwayAnim1.gif" width="35%"> <img src="/SwayAnim2.gif" width="35%">
 
-Check more smoothness with video.
+Check smoothness with video.
 
 [Sample](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be) /
 [Sample with RecyclerView](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
