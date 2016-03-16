@@ -4,7 +4,7 @@
 
 Check more smoothness with video!
 
-[Sample](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be)
+[Sample](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be) / 
 [Sample with RecyclerView](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
 
 
