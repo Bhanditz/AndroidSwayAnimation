@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 23
@@ -17,7 +18,6 @@ android {
         }
     }
     sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
     }
 }
 
@@ -29,10 +29,21 @@ dependencies {
 buildscript {
     repositories {
         mavenCentral()
+        jcenter()
     }
     dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
     }
 }
 repositories {
     mavenCentral()
+}
+
+publish {
+    userOrg = 'kidach1'
+    groupId = 'com.kidach1'
+    artifactId = 'AndroidSwayAnimation'
+    publishVersion = '1.0.0'
+    desc = 'AndroidSwayAnimation'
+    website = 'https://github.com/kidach1/AndroidSwayAnimation'
 }
