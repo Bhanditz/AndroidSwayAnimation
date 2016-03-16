@@ -14,14 +14,14 @@ dependencies {
 ## Usage
 
 ```java
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        RelativeLayout animatedZone = (RelativeLayout) findViewById(R.id.animatedLayout);
-        RelativeLayout touchZone = (RelativeLayout) findViewById(R.id.touchedLayout);
-        SwayAnimation.ready(animatedZone, touchZone, this);
-    }
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+    RelativeLayout animatedZone = (RelativeLayout) findViewById(R.id.animatedLayout);
+    RelativeLayout touchZone = (RelativeLayout) findViewById(R.id.touchedLayout);
+    SwayAnimation.ready(animatedZone, touchZone, this);
+}
 ```
 
 ## Advanced
