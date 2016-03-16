@@ -43,7 +43,7 @@ publish {
     userOrg = 'kidach1'
     groupId = 'com.kidach1'
     artifactId = 'AndroidSwayAnimation'
-    publishVersion = '1.0.3'
+    publishVersion = '1.0.4'
     desc = 'AndroidSwayAnimation'
     website = 'https://github.com/kidach1/AndroidSwayAnimation'
 }
