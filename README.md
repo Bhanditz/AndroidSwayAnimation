@@ -1,9 +1,8 @@
+# AndroidSwayAnimation
 
-  <img src="/SwayAnim1.gif" width="35%"> <img src="/SwayAnim2.gif" width="35%">
+<img src="/SwayAnim1.gif" width="35%"> <img src="/SwayAnim2.gif" width="35%">
 
-This is subtle gif.
-
-check smoothness with video!
+Check more smoothness with video!
 
 [Animation](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be)
 
