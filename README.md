@@ -1,13 +1,13 @@
 
+  <img src="/SwayAnim1.gif" width="35%"> <img src="/SwayAnim2.gif" width="35%">
+
+This is subtle gif.
+
 check smoothness with video!
 
 [Animation](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be)
 
 [Animation with RecyclerView](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
-
-subtle gif.
-
- <img src="/SwayAnim2.gif" width="35%">
 
 
 ## Download
@@ -51,6 +51,3 @@ SwayAnimation.ready(animatedZone, touchZone, this);
 SwayAnimation.withActionBar(true);
 SwayAnimation.ready(animatedZone, touchZone, this);
 ```
-
-
-## You can use this with RecyclerView if you want.
