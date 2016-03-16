@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 //                R.drawable.ic_tag_faces_amber_300_48dp,
 //                R.drawable.ic_thumb_up_blue_a200_48dp
 //        ));
+//        SwayAnimation.withActionBar(true);
         SwayAnimation.ready(layout, layout, this);
     }
 }

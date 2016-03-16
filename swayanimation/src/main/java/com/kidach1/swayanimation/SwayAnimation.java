@@ -21,19 +21,29 @@ public class SwayAnimation {
     private static Long TRANSLATE_DURATION = 2000L;
     private static Long MIN_TRANSLATE_DURATION = 500L;
     private static Float SCALE_RATE = 0.7f;
+    private static int ADJUST_TOUCH_POINT_FOR_LEFT_MARGIN = 120;
+    private static int ADJUST_TOUCH_POINT_FOR_TOP_MARGIN = 120;
     private static int ROTATE_RAND_SEED = 60;
     private static int FOR_MINUS_ROTATE = -30;
     private static int TRANSLATE_TO_X_DELTA_RAND_SEED = 200;
     private static int TRANSLATETO_Y_DELTA_RAND_SEED = 1200;
-    private static Float ADJUST_TOUCH_POINT_FOR_LEFT_MARGIN = 120f;
-    private static Float ADJUST_TOUCH_POINT_FOR_TOP_MARGIN = 120f;
+    private static int actionBarHeight = 168;
+    private static Boolean withActionBar = false;
     private static List<Integer> drawables = Arrays.asList(
             R.drawable.flower_pink, R.drawable.star_blue, R.drawable.heart_pink,
             R.drawable.star_yellow, R.drawable.music, R.drawable.star_orange
     );
 
-    public static void setDrawables(List<Integer> ds) {
-        drawables = ds;
+    public static void setDrawables(List<Integer> l) {
+        drawables = l;
+    }
+
+    public static void setActionBarHeight(int i) {
+        actionBarHeight = i;
+    }
+
+    public static void withActionBar(Boolean b) {
+        withActionBar = b;
     }
 
     public static void ready(final ViewGroup addedLayout, View touchedView, final Context mContext) {
@@ -57,8 +67,9 @@ public class SwayAnimation {
     private static RelativeLayout.LayoutParams getLayoutParams(MotionEvent event) {
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        layoutParams.leftMargin = ((int) (event.getRawX() - ADJUST_TOUCH_POINT_FOR_LEFT_MARGIN));
-        layoutParams.topMargin = ((int) (event.getRawY() - ADJUST_TOUCH_POINT_FOR_TOP_MARGIN));
+        layoutParams.leftMargin = (int) event.getRawX() - ADJUST_TOUCH_POINT_FOR_LEFT_MARGIN;
+        int adjustY = withActionBar ? ADJUST_TOUCH_POINT_FOR_TOP_MARGIN + actionBarHeight : ADJUST_TOUCH_POINT_FOR_TOP_MARGIN;
+        layoutParams.topMargin = (int) event.getRawY() - adjustY;
         return layoutParams;
     }
 
