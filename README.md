@@ -1,6 +1,5 @@
 
 
-http://img.youtube.com/vi/vyBPNVYK6JU/0.jpg
 [![Video](/SwayAnim2.gif)](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
 
 
