@@ -18,7 +18,7 @@ public class SwayAnimation {
     private static Long SCALE_DURATION = 500L;
     private static Long ALPHA_DURATION = 3000L;
     private static Long ROTATE_DURATION = 750L;
-    private static Long TRANSLATE_DURATION = 2300L;
+    private static Long TRANSLATE_DURATION = 2000L;
     private static Long MIN_TRANSLATE_DURATION = 500L;
     private static Float SCALE_RATE = 0.7f;
     private static int ROTATE_RAND_SEED = 60;
