@@ -1,5 +1,5 @@
 
-<img src="/SwayAnim1.gif" width="35%"> <div></div>  <img src="/SwayAnim2.gif" width="35%">
+<img src="/SwayAnim1.gif" width="35%"> <img src="/SwayAnim2.gif" width="35%">
 
 
 ## Download
