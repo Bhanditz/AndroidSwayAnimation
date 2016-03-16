@@ -46,15 +46,15 @@ public class SwayAnimation {
         withActionBar = b;
     }
 
-    public static void ready(final ViewGroup addedLayout, View touchedView, final Context mContext) {
-        touchedView.setOnTouchListener(new View.OnTouchListener() {
+    public static void ready(final ViewGroup animatedZone, View touchedZone, final Context mContext) {
+        touchedZone.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 ImageView mAnimImage = new ImageView(mContext);
                 mAnimImage.setImageResource(getDrawable());
                 mAnimImage.setLayoutParams(getLayoutParams(event));
                 mAnimImage.startAnimation(getAnimSet(mAnimImage));
-                addedLayout.addView(mAnimImage);
+                animatedZone.addView(mAnimImage);
                 return false;
             }
         });
