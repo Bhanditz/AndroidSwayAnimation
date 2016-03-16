@@ -20,6 +20,7 @@ dependencies {
 ## Usage
 
 ```java
+// In your Activity
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
