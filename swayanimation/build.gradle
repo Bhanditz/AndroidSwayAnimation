@@ -52,3 +52,7 @@ publish {
     desc = 'AndroidSwayAnimation'
     website = 'https://github.com/kidach1/AndroidSwayAnimation'
 }
+
+afterEvaluate {
+    tasks.findByPath(":swayanimation:mavenAndroidJavadocs").enabled = false
+}
