@@ -4,9 +4,8 @@
 
 Check more smoothness with video!
 
-[Animation](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be)
-
-[Animation with RecyclerView](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
+[Sample](https://www.youtube.com/watch?v=XECWjK18ppE&feature=youtu.be)
+[Sample with RecyclerView](https://www.youtube.com/watch?v=vyBPNVYK6JU&feature=youtu.be)
 
 
 ## Download
