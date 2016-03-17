@@ -27,7 +27,7 @@ class SwayAnimation {
         private val ROTATE_RAND_SEED = 60
         private val FOR_MINUS_ROTATE = -30
         private val TRANSLATE_TO_X_DELTA_RAND_SEED = 200
-        private val TRANSLATETO_Y_DELTA_RAND_SEED = 1200
+        private val TRANSLATE_TO_Y_DELTA_RAND_SEED = 1200
 
         var drawables = Arrays.asList(
                 R.drawable.flower_pink, R.drawable.star_blue, R.drawable.heart_pink,
@@ -81,7 +81,7 @@ class SwayAnimation {
 
         private fun getTranslateAnim(mAnimImage: ImageView): TranslateAnimation {
             val randTranslateToXDeltaVal = Math.random().toFloat() * TRANSLATE_TO_X_DELTA_RAND_SEED
-            val randTranslateToYDeltaVal = Math.random().toFloat() * TRANSLATETO_Y_DELTA_RAND_SEED
+            val randTranslateToYDeltaVal = Math.random().toFloat() * TRANSLATE_TO_Y_DELTA_RAND_SEED
             val translate = TranslateAnimation(
                     0.0f,
                     randTranslateToXDeltaVal,
