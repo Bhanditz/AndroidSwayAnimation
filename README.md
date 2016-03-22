@@ -12,7 +12,7 @@ This is subtle gif. Check smoothness with video.
 
 ```build.gradle
 dependencies {
-    compile 'com.kidach1:AndroidSwayAnimation:1.0.5'
+    compile 'com.kidach1:AndroidSwayAnimation:1.0.7'
 }
 ```
 
