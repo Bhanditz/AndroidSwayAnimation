@@ -48,11 +48,13 @@ class SwayAnimation {
 
         @JvmStatic fun ready(animatedZone: ViewGroup, touchedZone: View, mContext: Context) {
             touchedZone.setOnTouchListener { v, event ->
-                val mAnimImage = ImageView(mContext)
-                mAnimImage.setImageResource(getDrawable())
-                mAnimImage.layoutParams = getLayoutParams(event)
-                mAnimImage.startAnimation(getAnimSet(mAnimImage))
-                animatedZone.addView(mAnimImage)
+                if (event.action == MotionEvent.ACTION_DOWN) {
+                    val mAnimImage = ImageView(mContext)
+                    mAnimImage.setImageResource(getDrawable())
+                    mAnimImage.layoutParams = getLayoutParams(event)
+                    mAnimImage.startAnimation(getAnimSet(mAnimImage))
+                    animatedZone.addView(mAnimImage)
+                }
                 false
             }
         }
